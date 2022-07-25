@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+.foto{
+    width: 58px;
+    height: 58px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #663366;
+    margin: 0;
+    align-content: space-around;
+    align-items: center;
+    height: 67px;
+    
+}
+
+.li,a {
+    font-size: 17px;
+   text-decoration: none;
+   color: #fff;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+
+
+.nav_links li{
+    display: inline-block;
+    padding:0px 20px;
+}
+
+.nav_links li a:hover {
+      color: #966096;
+}
+
+.banner, .foto__1{
+    width: 100%;
+    height: 377px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    padding:50px;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin: 0;
+    align-content: center;
+    align-items: center;
+    height: 67px;
+    margin-left: -380px;
+  
+}
+
+.nome{
+    font-family: adobe;
+    font-size: 50px;
+    text-align: center;
+    
+     
+    
+}
+
+.fotomaior{
+    width: 260px;
+    height: 260px;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    padding:150px;
+    justify-content: center;
+    flex-wrap: wrap; 
+    align-content: center;
+    height: 67px;
+    width: 900px;
+    height: 500px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-left: 350px;
+}
+
+.ola{
+
+width: 65px;
+height: 46px;
+
+text-align: left;
+font: 34px;
+
+}
